@@ -1,0 +1,248 @@
+@media screen and (max-width: 784px){
+    .lista li a{
+        padding: 10px;
+        color: #e8e8e8;
+        font-weight: bolder;
+        font-size: 15px;
+        font-family: "arial";
+    }
+    .home{
+    background-color: rgb(192, 182, 169);
+    display: flex;
+    align-items: center;
+	height: 750px;
+    width: 100%;
+    }
+    .home .informacoes{
+        margin: 40px;
+        max-width: 600px;
+        font-family: "arial";
+    }
+    .home .informacoes h1{
+        height: 180px;
+        font-size: 50px;
+        color: rgb(43,58,61);
+    }
+    .home .informacoes p{
+        font-size: 15px;
+        color: rgb(43,58,61);
+    }
+    .div-imagem .imagem-capa{
+        max-width: 250px;
+    }
+    .div-imagem img{
+        margin: 15px;
+    }
+    .quemsomos .info-sergio h1{
+        font-size: 40px;
+        height: 100px;
+    }
+    .quemsomos .info-sergio p{
+        font-size: 20px;
+    }
+    .quemsomos img{
+        max-width: 250px;
+    }
+    .feedbacks{
+        background-color:rgb(43,58,61);
+        display: flex;
+        align-items: center;
+        height: 750px;
+        font-family: arial;
+        width: 100%;
+    }
+    .feedbacks{
+        text-align: center;
+    }
+    .feedbacks .video1{
+        max-width: 300px;
+        text-align: center;
+        align-items: center;
+        margin: 15px;
+    }
+    .texto1{
+        display: none;
+    }
+    .texto2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 546px){
+    #menu img{
+        display: none;
+    }
+    .home{
+            height: 900px;
+            width: 600px;
+            display: flex;
+        }
+        .home .informacoes{
+            margin: 10px;
+            font-family: "arial";
+        }
+        .home .informacoes h1{
+            height: 180px;
+            font-size: 40px;
+            color: rgb(43,58,61);
+        }
+        .home .informacoes p{
+            font-size: 15px;
+            color: rgb(43,58,61);
+        }
+        .div-imagem .imagem-capa{
+            max-width: 250px;
+        }
+        .div-imagem img{
+            margin: 0px;
+        }
+        .quemsomos{
+            height: 950px;
+            width: 600px;
+        }
+        .quemsomos .info-sergio h1{
+            height: 150px;
+        }
+        .feedbacks{
+            height: 950px;
+            width: 800px;
+        }
+        .contato{
+            height: 950px;
+            width: 700px;
+            justify-content: center;
+        }
+        .contato .informacoes{
+            max-width: 600px;
+            margin: 10px;
+        }
+        .contato .informacoes h1{
+            font-size: 50px;
+        }
+}
+
+
+@media screen and (max-width: 425px){
+    
+    #menu{
+        justify-content: center;
+        width: 900px;
+        height: 170px;
+     }
+    #menu img{
+        display: flex;
+        margin-right: 25px;
+    }
+    .lista{
+        gap: 10px;
+    }
+    .lista li a{
+        font-size: 27px;
+    }
+    .home{
+        height: 1300px;
+        width: 900px;
+        flex-direction: column;
+    }
+    .home .informacoes{
+        width: 700px;
+        height: 700px;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+    }
+    .home .informacoes h1{
+        height: 200px;
+        font-size: 70px;
+       
+    }
+    .home .informacoes p{
+        font-size: 35px ;
+        
+    }
+    .home img{
+        display: flex;
+        justify-content: top;
+        min-width: 400px;
+        margin-top: 50px;
+        margin-right:40px ;
+    }
+    .quemsomos{
+        height: 1600px;
+        width: 900px;
+        flex-direction: column;
+    }
+    .quemsomos .info-sergio{
+        margin-top: 230px;
+        text-align: center;
+    }
+    .quemsomos .info-sergio h1{
+        height: 200px;
+        font-size: 70px;
+    }
+    .quemsomos .info-sergio p{
+        font-size: 35px ;
+
+    }
+    .quemsomos .imagem-sergio{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin: 20px;
+    }
+    .quemsomos .imagem-sergio img{
+        max-width: 400px;
+    }
+    .feedbacks{
+        width: 900px;
+        height: 1700px;
+    }
+    .feedbacks .titulo-feedback{
+        height: 200px;
+        margin: 0;
+    }
+    .feedbacks .video1{
+        margin-left: 50px;
+    }
+    .feedbacks .video2{
+        margin-left: 70px;
+    }
+    .feedbacks .video1 .nayanepacheco,
+    .feedbacks .video2 .camila{
+        max-width: 300px;
+    }
+    .btn-saibamais{
+        margin-left: 50px;
+    }
+    .texto1{
+        text-align: left;
+        display: block;
+        margin-left: 80px;
+        margin-top: 20px;
+        font-size: 23px;
+        max-width: 350px;
+    }
+    .texto2{
+        text-align: left;
+        display: block;
+        margin-left: 90px;
+        margin-top: 20px;
+        font-size: 23px;
+        max-width: 350px;
+    }
+    .contato{
+        width: 900px;
+        height: 1300px;
+    } 
+    .contato .informacoes{
+        height: 700px;
+        margin: 0;
+    }
+    .contato .informacoes h1{
+        height: 200px;
+    }
+    .contato .informacoes ul li{
+        font-size: 30px;
+    }
+    
+}

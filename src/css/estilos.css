@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(192, 182, 169);
+}
+
+/* Cabeçalho */
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(43, 58, 61);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+    z-index: 2;
+}
+
+#menu img {
+    max-width: 40px;
+}
+
+.lista {
+    display: flex;
+    gap: 30px;
+}
+
+.lista li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: "arial";
+}
+
+.lista li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Home */
+.home {
+    background-color: rgb(192, 182, 169);
+    display: flex;
+    align-items: center;
+    height: 750px;
+}
+
+.home .informacoes {
+    margin: 40px;
+    max-width: 600px;
+    font-family: "arial";
+}
+
+.home .informacoes h1 {
+    height: 180px;
+    font-size: 70px;
+    color: rgb(43, 58, 61);
+}
+
+.home .informacoes p {
+    font-size: 30px;
+    color: rgb(43, 58, 61);
+}
+
+.div-imagem {
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+}
+
+.div-imagem .imagem-capa {
+    max-width: 600px;
+}
+
+/* Quem Somos */
+.quemsomos {
+    background-color: rgb(192, 182, 169);
+    display: flex;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+
+.quemsomos .info-sergio {
+    max-width: 600px;
+    font-family: arial;
+    margin: 25px;
+}
+
+.quemsomos .info-sergio h1 {
+    height: 210px;
+    font-size: 70px;
+    color: rgb(43, 58, 61);
+}
+
+.quemsomos .info-sergio p {
+    font-size: 25px;
+    color: rgb(43, 58, 61);
+}
+
+.imagem-sergio {
+    width: 650px;
+    text-align: right;
+}
+
+.quemsomos img {
+    max-width: 400px;
+    border: 5px solid rgb(43, 58, 61);
+    border-radius: 10px;
+}
+
+/* Feedbacks */
+.feedbacks {
+    background-color: rgb(43, 58, 61);
+    display: flex;
+    align-items: center;
+    height: 750px;
+    font-family: arial;
+    width: 100%;
+}
+
+.feedbacks .agrupamento {
+    display: flex;
+}
+
+.feedbacks .titulo-feedback {
+    font-size: 60px;
+    color: #fff;
+    font-family: arial;
+    text-align: center;
+}
+
+.feedbacks .video1,
+.feedbacks .video2 {
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    z-index: 1;
+}
+
+.feedbacks .video1 .nayanepacheco,
+.feedbacks .video2 .camila {
+    max-width: 250px;
+    text-align: center;
+    border-radius: 4px;
+    border: 5px solid #fff;
+    margin: 30px;
+}
+
+.btn-saibamais,
+.btn-agendar {
+    border: 0.5px solid #fff;
+    font-size: 28px;
+    padding: 8px 40px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto1,
+.texto2 {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    font-size: 18px;
+    color: #fff;
+    height: 400px;
+    height: 470px;
+}
+
+/* Contato */
+.contato {
+    background-color: rgb(43, 58, 61);
+    display: flex;
+    align-items: center;
+    min-height: calc(112vh - 80px);
+    width: 100%;
+    justify-content: center;
+}
+
+.contato .informacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 350px;
+    width: 700px;
+    text-align: left;
+}
+
+.contato .informacoes h1 {
+    font-size: 70px;
+    height: 180px;
+    max-width: 700px;
+}
+
+.contato .informacoes ul li {
+    font-size: 20px;
+    max-width: 700px;
+    color: rgb(255, 255, 255);
+    list-style: circle;
+    text-align: left;
+}
+
+.botao {
+    text-align: center;
+    width: 700px;
+}
+
+.btn-agendar,
+.btn-saibamais:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 58, 61);
+}
